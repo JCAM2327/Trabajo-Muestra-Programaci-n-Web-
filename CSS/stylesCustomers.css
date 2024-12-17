@@ -1,0 +1,13 @@
+.customers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Ajusta 200px al ancho mínimo deseado */
+    grid-gap: 10px; /* Espacio entre los elementos */
+    margin: 5px;
+}
+
+.customers--descripcion {
+    border: solid 2px;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+    min-height: 200px; /* Altura mínima para consistencia */
+}
